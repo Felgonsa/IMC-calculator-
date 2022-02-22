@@ -97,7 +97,7 @@ p:last-of-type {
     border-radius: 20px;
 }
 
-@media screen and (max-width:500px) {
+@media(max-width:500px) {
     body {
         background-color: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 145));
     }
