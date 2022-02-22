@@ -96,3 +96,21 @@ p:last-of-type {
     background-color: rgb(120, 200, 247);
     border-radius: 20px;
 }
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 145));
+    }
+    .container {
+        width: 100%;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    input {
+        width: 100%;
+    }
+    .baixo {
+        width: 95%;
+        font-size: 17px;
+    }
+}
